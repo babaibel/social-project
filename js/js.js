@@ -82,7 +82,6 @@ $(document).ready(function() {
 	});
 
 	var swidth=(window.innerWidth-$(window).width());
-	alert(swidth);
 
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',
