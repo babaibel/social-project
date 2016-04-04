@@ -258,6 +258,16 @@ img {
 .about__layout .columns-container {
   padding: 0 20px;
 }
+.accordeon-container {
+  padding: 0 20px;
+}
+.accordeon-container .hide-box {
+  padding: 10px 30px;
+  display: none;
+}
+.accordeon-container .hide-box .columns-container {
+  margin-bottom: 0;
+}
 .show-next-box-btn {
   position: relative;
   cursor: pointer;
@@ -269,7 +279,7 @@ img {
   color: #53448a;
   text-transform: uppercase;
   padding: 0 60px 0 30px;
-  margin: 0 20px 10px;
+  margin: 0 0 10px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -287,6 +297,9 @@ img {
 }
 .show-next-box-btn:hover {
   color: #8c82b1;
+}
+.show-next-box-btn.active:after {
+  background-position: left bottom;
 }
 .stories__layout {
   padding: 60px 0 140px;
