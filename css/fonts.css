@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Avenir/AvenirNextW1GThin.eot);
+    src: url(../fonts/Avenir/AvenirNextW1GThin.eot?#iefix) format('embedded-opentype'), 
+    url(fonts/Avenir/AvenirNextW1GThin.woff2) format('woff2'), 
+    url(fonts/Avenir/AvenirNextW1GThin.woff) format('woff'), 
+    url(fonts/Avenir/AvenirNextW1GThin.ttf) format('truetype'), 
+    url(fonts/Avenir/AvenirNextW1GThin.svg#Avenir) format('svg');
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Avenir/AvenirNextW1GLight.eot);
+    src: url(../fonts/Avenir/AvenirNextW1GLight.eot?#iefix) format('embedded-opentype'), 
+    url(../fonts/Avenir/AvenirNextW1GLight.woff2) format('woff2'), 
+    url(../fonts/Avenir/AvenirNextW1GLight.woff) format('woff'), 
+    url(../fonts/Avenir/AvenirNextW1GLight.ttf) format('truetype'), 
+    url(../fonts/Avenir/AvenirNextW1GLight.svg#Avenir) format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Avenir/AvenirNextW1GRegular.eot);
+    src: url(../fonts/Avenir/AvenirNextW1GRegular.eot?#iefix) format('embedded-opentype'), 
+    url(../fonts/Avenir/AvenirNextW1GRegular.woff2) format('woff2'), 
+    url(../fonts/Avenir/AvenirNextW1GRegular.woff) format('woff'), 
+    url(../fonts/Avenir/AvenirNextW1GRegular.ttf) format('truetype'), 
+    url(../fonts/Avenir/AvenirNextW1GRegular.svg#Avenir) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Avenir/AvenirNextW1GMedium.eot);
+    src: url(../fonts/Avenir/AvenirNextW1GMedium.eot?#iefix) format('embedded-opentype'), 
+    url(../fonts/Avenir/AvenirNextW1GMedium.woff2) format('woff2'), 
+    url(../fonts/Avenir/AvenirNextW1GMedium.woff) format('woff'), 
+    url(../fonts/Avenir/AvenirNextW1GMedium.ttf) format('truetype'), 
+    url(../fonts/Avenir/AvenirNextW1GMedium.svg#Avenir) format('svg');
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/Avenir/AvenirNextW1GDemi.eot);
+    src: url(../fonts/Avenir/AvenirNextW1GDemi.eot?#iefix) format('embedded-opentype'), 
+    url(../fonts/Avenir/AvenirNextW1GDemi.woff2) format('woff2'), 
+    url(../fonts/Avenir/AvenirNextW1GDemi.woff) format('woff'), 
+    url(../fonts/Avenir/AvenirNextW1GDemi.ttf) format('truetype'), 
+    url(../fonts/Avenir/AvenirNextW1GDemi.svg#Avenir) format('svg');
+    font-weight: 600;
+    font-style: normal
+}
