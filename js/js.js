@@ -78,7 +78,10 @@ $(document).ready(function() {
 
 	$(".js-show-next-box-btn").click(function(){
 		$(this).toggleClass('active');
-		$(this).next('.hide-box').slideToggle();
+		$(this).next('.hide-box').slideToggle( 200,
+			function(){
+		    $(window).trigger('resize.px.parallax');
+		});
 	});
 
 	var swidth=(window.innerWidth-$(window).width());
