@@ -27,7 +27,7 @@
 				</a>
 			</div>
 			<div class="header-right">
-				<a href="#" class="send-question-btn"><span>Отправить вопрос!?</span></a>
+				<a href="#callback-modal" class="send-question-btn js-popup-modal"><span>Отправить вопрос!?</span></a>
 
 				<div class="header-phone">
 					<p>круглосуточный бесплатный телефон</p>
@@ -760,6 +760,45 @@
 	</footer>
 
 	<div class="scroller"></div>
+
+	<div id="callback-modal" class="popup-block mfp-hide">
+		<div class="popup-block__header">
+			<h2 class="h2-popup-title">Отправить вопрос</h2>
+			<a class="popup-modal-dismiss" href="#"></a>
+		</div>
+		<div class="popup-block__body">
+			<div class="popup-form">
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">Контактное лицо<span class="red-star">*</span>:</div>
+					<input type="text" class="input-default input-default--inline" placeholder="Фамилия, имя, отчество">
+				</div>
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">Город<span class="red-star">*</span>:</div>
+					<input type="text" class="input-default input-default--inline" placeholder="Санкт-Петербург">
+				</div>
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">Номер телефона<span class="red-star">*</span>:</div>
+					<input type="text" class="input-default input-default--inline" placeholder="+7 123 456 78 91">
+				</div>
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">E-mail<span class="red-star">*</span>:</div>
+					<input type="text" class="input-default input-default--inline" placeholder="+7 123 456 78 91">
+				</div>
+				<div class="form-line cleara">
+					<div class="label-for-input label-for-input--inline">Ваш вопрос:</div>
+					<textarea class="textarea-default"></textarea>
+				</div>
+				<div class="form-line form-line--no-left cleara">
+					<div class="label-for-input">Введите код с картинки:</div>
+					<input type="text" class="input-default input-default--captcha">
+					<a href="#" class="captcha-img"><img src="img/userfiles/captcha.jpg" alt=""></a>
+				</div>
+				<div class="form-line form-line--no-left cleara">
+					<button class="popup-callback-form__btn dark-green-btn">Отправить вопрос</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
