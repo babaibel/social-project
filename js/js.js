@@ -17,24 +17,6 @@ $(document).ready(function() {
 	    }
 	});
 
-	var swidth=(window.innerWidth-$(window).width());
-
-	$('.js-popup-modal').magnificPopup({
-		type: 'inline',
-		preloader: false,
-		focus: '#username',
-		showCloseBtn: false,
-		mainClass: 'popup-modal-overlay',
-		callbacks: {
-			open: function() { $('.header__layout.fixed').css('padding-right', swidth + "px"); }, 
-			close: function() { $('.header__layout.fixed').css('padding-right', 0); },
-		}
-	});
-	$(document).on('click', '.popup-modal-dismiss', function (e) {
-		e.preventDefault();
-		$.magnificPopup.close();
-	});
-
 	$('.js-video-prev').click(function () {
 	    return false;
 	});
@@ -124,6 +106,22 @@ $(document).ready(function() {
 			open: function() { $('.header__layout').css('padding-right', swidth + "px"); }, 
 			close: function() { $('.header__layout').css('padding-right', 0); },
 		}
+	});
+
+	$('.js-popup-modal').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#username',
+		showCloseBtn: false,
+		mainClass: 'popup-modal-overlay',
+		callbacks: {
+			open: function() { $('.header__layout.fixed').css('padding-right', swidth + "px"); }, 
+			close: function() { $('.header__layout.fixed').css('padding-right', 0); },
+		}
+	});
+	$(document).on('click', '.popup-modal-dismiss', function (e) {
+		e.preventDefault();
+		$.magnificPopup.close();
 	});
 
 });
