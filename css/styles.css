@@ -703,6 +703,9 @@ img {
   display: block;
   width: 100%;
 }
+.gallery-container__item:nth-child(3n+1) {
+  clear: left;
+}
 .video-prev {
   position: relative;
   display: block;
