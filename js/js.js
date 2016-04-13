@@ -41,6 +41,14 @@ $(document).ready(function() {
 	  	arrows: false
 	});
 
+	$('.js-story-slider').slick({
+		infinite: false,
+		dots: true,
+	  	arrows: false,
+	  	autoplay: true,
+	  	autoplaySpeed: 4000
+	});
+
 	$('.js-tabs').tabslet();
 
 	$('.js-tabs').on("_after", function() {
@@ -79,7 +87,7 @@ $(document).ready(function() {
 	$(".js-show-next-box-btn").click(function(){
 		$(this).toggleClass('active');
 		$(this).next('.hide-box').slideToggle( 200,
-			function(){
+		function(){
 		    $(window).trigger('resize.px.parallax');
 		});
 	});
