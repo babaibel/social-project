@@ -658,6 +658,8 @@ img {
 .gallery-tabs > div {
   margin-top: 10px;
   background: white !important;
+}
+.gallery__layout .gallery-tabs > div {
   height: 504px;
 }
 .gallery-tabs__controls {
